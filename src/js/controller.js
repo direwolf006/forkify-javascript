@@ -96,6 +96,7 @@ const controlAddRecipe =async function(newRecipe){
 }
 
 const init=()=>{
+  console.log('New Log , App is initialized');
   bookmarksView.addHandlerRender(controlBookmarks)
   recipeView.addHandlerRender(controlRecipes)
   recipeView.addHandlerUpdateServings(controlServings)
